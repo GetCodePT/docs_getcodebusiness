@@ -16,20 +16,20 @@ Para criar um documento, clicar em `Criar documento` na barra de ações do hist
 
   Selecione a opção **`Enviar email ao cliente ao criar o documento`**, é enviado um email automático para o email inserido com uma cópia do documento.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc72f7b11-018d-43f0-9357-9a4a891ec393%2Ftutorial_ecra_documentos_criar_opcoes.png)
+![](screenshots/tutorial_ecra_documentos_criar_opcoes.png)
 
 - O items dos documentos são linhas singulares que representam um item com uma relação de preço/quantidade, como por exemplo um produto.
 
   Adicione um item e/ou produto ao seu documento, para isso basta clicar em `adicionar linha` na respectiva secção.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F076247fb-021d-4f3e-a0e8-59ad5954afe4%2Ftutorial_ecra_documentos_item.png)
+![](screenshots/tutorial_ecra_documentos_item.png)
 
 A consulta de um documento no *backoffice* é efectuado no seguinte endereço:
 `http://{colocar o seu domínio}/admin/documento/{ID}`
 
 Por defeito, um documento é criado com o estado `Por pagar`.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa1afd332-a42d-4306-b533-390ffc0df144%2Ftutorial_ecra_documentos_view.png)
+![](screenshots/tutorial_ecra_documentos_view.png)
 
 **Registar um pagamento**
 
@@ -37,7 +37,7 @@ Apesar de na ação de criação de um documento ser criada automaticamente um t
 
 Para registar um pagamento, clique em `Pagamento` no canto superior direito.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81a9cbf9-579d-4eb2-9501-5547be938dbf%2Ftutorial_ecra_documento_registarpagamento.png)
+![](screenshots/tutorial_ecra_documento_registarpagamento.png)
 
 Parâmetros de registo de um pagamento:
 
@@ -84,7 +84,7 @@ Nome e Email do cliente
 Documento associado
 Obervações`
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0e532e28-1157-430e-a62b-6806a3387dc8%2Ftutorial_ecra_transacoes_editar.png)
+![](screenshots/tutorial_ecra_transacoes_editar.png)
 
 **Alteração do Estado da Transação**
 
@@ -98,7 +98,7 @@ Para uma transação, são disponibilizados os seguintes estados:
 - `Concluído`
 - `Anulado`
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd12f63a6-f8c9-4d5f-bdff-eaed9da25c73%2Ftutorial_ecra_transacao.png)
+![](screenshots/tutorial_ecra_transacao.png)
 
 Ao alterar o estado da transação para `Concluído` o sistema vai dar a transação como paga bem como o respetivo documento SE o valor da transação for igual ao saldo do documento.
 
@@ -129,7 +129,7 @@ Estes representam pedidos de orçamento que foram efetuados.
 A consulta de um orçamento no *backoffice* é efectuada no seguinte endereço:
 `http://{oseudomínio}/admin/documentos/update/#/documento/orcamento/{ID}`
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F06e9e33f-95fa-46de-b2c6-0d9446d2f334%2Ftutorial_ecra_orcamento_consultar.png)
+![](screenshots/tutorial_ecra_orcamento_consultar.png)
 
 Após a receção de um pedido de orçamento, a resposta é uma conversão de um orçamento para um documento, onde estão representados todas as informações relativas e items/produtos associados.
 
@@ -139,17 +139,17 @@ Para criar um documento através de um pedido de orçamento, clique em `Criar do
 
 O histórico de formulários de orçamento encontra-se no *backoffice* no seguinte endereço: `http://{colocar o seu domínio}admin/formularios-orcamento` ou em `Menu → Orçamentos → Formulários de orçamento`
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F028cbafd-f9a9-4a82-a378-6806cf1304c2%2Ftutorial_ecra_orcamento_criar.png)
+![](screenshots/tutorial_ecra_orcamento_criar.png)
 
 A criação de um formulário de orçamento requer o preenchimento de campos como o `titulo`, associar um `formulário` existente e `descrição`.
 
 Caso o campo `URL customizado` seja preenchido, após ser submetida uma resposta a um pedido de formulário, o utilizador seja redirecionado para uma página especifica.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe75f40d7-c48e-47a7-98ab-4cab27810d3c%2Ftutorial_ecra_orcamento_criar_url.png)
+![](screenshots/tutorial_ecra_orcamento_criar_url.png)
 
 O formulário permite, que caso existam produtos criados, estes sejam associados a um formulário de pedido de orçamento.
 
-![](https://www.notion.so/file/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcfe646a0-a55f-4738-8323-78b2daa67c93%2Ftutorial_ecra_orcamento_criar_associarprodutos.png)
+![](screenshots/tutorial_ecra_orcamento_criar_associarprodutos.png)
 
 Os formulários de orçamento são disponibilizados mediante a necessidade do utilizador, sendo aplicáveis exclusivamente de forma técnica.
 
